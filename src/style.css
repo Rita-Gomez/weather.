@@ -12,7 +12,8 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 .container {
-    background: #000000d0;
+  display: block;
+    background: #0000009e;
     color: white;
     padding: 2em;
     border-radius: 30px;
@@ -25,13 +26,17 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+.display{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
     button {
         margin: 0.5em;
         border-radius: 50%;
         border: none;
-        height: 44px;
-        width: 44px;
+        height: 2.5rem;
+        width: 10%;
         outline: none;
         background: #eaebdd;
         color: white;
@@ -50,15 +55,14 @@ input.box-search {
     border-radius: 24px;
     background: #7c7c7c2b;
     color: white;
-    font-family: inherit;
     font-size: 105%;
+    height: 2rem;
     width: calc(100% - 100px);
   }
-h1.salute{
-    margin: 0;
-    margin-bottom: 0.4em;
-    align-items: center;
-    display: flex;
-    font-size: 2rem;
-    padding: 5px 5px;
+
+.description{
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 20px;
+
 }
